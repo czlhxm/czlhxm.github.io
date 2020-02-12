@@ -1,0 +1,183 @@
+html, body {
+	width: 1899px;
+    height: auto;
+    margin: auto;
+    background: url('../images/background.png');
+    font-size: 0px;
+}
+
+aside {
+    width: 200px;
+    height: 1452px;
+    float: left;
+    background-color: #303030;
+}
+
+aside .user {
+    margin-top: 60px;
+    display: block;
+}
+
+.user .sculpture {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 8px solid #f6f6f6;
+    background: url('../images/sculpture.jpg');
+    background-size: contain;
+}
+
+.user .username {
+    margin: auto;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Microsoft YaHei', 'Heiti SC', arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+aside .list {
+    margin: auto;
+    margin-top: 40px;
+}
+
+.list li {
+    height: 70px;
+    margin-top: -1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.list li a {
+    display: block;
+    color: #606060;
+    font-family: 'Microsoft YaHei', 'Heiti SC', arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+.unselected a:hover {
+    color: #a0a0a0;
+}
+
+.list .selected a{
+    color: #ffbfbf;
+}
+
+section {
+    position: relative;
+    float: right;
+    width: calc(100% - 200px);
+    height: auto;
+    overflow: hidden;
+    
+}
+
+section .manage {
+    margin-top: 10px;
+    float: right;
+}
+
+section nav {
+    position: absolute;
+    top: 100px;
+    height: 80px;
+    width: 100%;
+    background-color: lightcoral;
+    box-shadow: 0 2px 4px 0 black;
+}
+
+.manage a {
+    margin: 10px;
+    font-size: 10px;
+}
+
+nav .guide {
+    float: left;
+    margin-left: 110px;
+}
+
+.guide a {
+    margin: 0 50px;
+    color: black;
+    font-size: 32px;
+    line-height: 80px;
+}
+
+.guide a:hover {
+    color: #303030;
+}
+
+nav .search {
+    float: right;
+    margin-right: 100px;
+    height: 80px;
+}
+
+.search input[type="search"] {
+    display: block;
+    float: left;
+    height: 48px;
+    margin: 16px 0;
+    padding: 0 14px;
+    border: 0;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    font-family: 'Microsoft YaHei', 'Heiti SC', arial, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.search input[type="button"] {
+    height: 48px;
+    width: 60px;
+    margin: 16px 0;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    background-color: #9b9b9b;
+    font-family: 'Microsoft YaHei', 'Heiti SC', arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+section .page {
+    margin-top: 280px;
+    width: 100%;
+}
+
+.page article {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 120px 120px;
+    width: 1400px;
+    background-color: #ffffff;
+    font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 22px -4px black;
+}
+
+article h1 {
+    margin-bottom: 60px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+article p {
+    line-height: 40px;
+}
+
+section .top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-image: url("../images/arrow.png");
+    background-size: contain;
+    box-shadow: 0 0 10px 0 black;
+}
